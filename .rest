@@ -1,22 +1,58 @@
-###
+### Local host 
 Get http://localhost:8080/contact
 
-###
+### contact by id GET
 Get http://localhost:8080/contact/65129529f9040fe1c68ebb7c
 
-###
-Get http://localhost:8080/contact/65129541f9040fe1c68ebb7d
+###create contact
+POST http://localhost:8080/contact HTTP/1.1
+content-type: application/json
+{
+"firstName":"Jeremy", "lastName":"Ramirez", "email":"jeremyomcapo@gmail.com", "favoriteColor":"Red", "birthday":"04/13/1997"
+}
 
-###
-Get http://localhost:8080/contact/6512955af9040fe1c68ebb7e
-###
+### contact 
+
+PUT  http://localhost:8080/contact/65129529f9040fe1c68ebb7c HTTP/1.1
+content-type: application/json
+{
+    "firstName": "Douglas",
+    "lastName": "Ramirez",
+    "email": "douglasfabricio.ramirez@gmail.com",
+    "favoriteColor": "Brown",
+    "birthday": "03/08/2001"
+}
+
+### delete contact 
+DELETE http://localhost:8080/contact HTTP/1.1
+
+
+
+
+###render
 GET https://cse341-weeek2.onrender.com/contact
 
 ###
 GET https://cse341-weeek2.onrender.com/contact/65129529f9040fe1c68ebb7c
 
 ###
-GET https://cse341-weeek2.onrender.com/contact/65129541f9040fe1c68ebb7d
+POST https://cse341-weeek2.onrender.com/contact HTTP/1.1
+content-type: application/json
+{
+"firstName":"Jeremy", "lastName":"Ramirez", "email":"jeremyomcapo@gmail.com", "favoriteColor":"Red", "birthday":"04/13/1997"
+}
 
-###
-GET https://cse341-weeek2.onrender.com/contact/6512955af9040fe1c68ebb7e
+### contact 
+
+PUT  https://cse341-weeek2.onrender.com/contact/65129529f9040fe1c68ebb7c HTTP/1.1
+content-type: application/json
+{
+    "firstName": "Douglas",
+    "lastName": "Ramirez",
+    "email": "douglasfabricio.ramirez@gmail.com",
+    "favoriteColor": "Brown",
+    "birthday": "03/08/2001"
+}
+
+### delete contact 
+DELETE https://cse341-weeek2.onrender.com/contact HTTP/1.1
