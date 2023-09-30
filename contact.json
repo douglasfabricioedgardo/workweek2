@@ -1,5 +1,5 @@
-{
-  "contact": {
+[
+  {
     "firstName": "Douglas",
     "lastName": "Ramirez",
     "email": "douglasfabricioedgardo@gmail.com",
@@ -7,7 +7,7 @@
     "birthday": "03/06/2001"
   },
 
-  "contact2": {
+  {
     "firstName": "Rosario",
     "lastName": "Ramirez",
     "email": "rosaraminunez@yahoo.com",
@@ -15,11 +15,11 @@
     "birthday": "08/07/2003"
   },
 
-  "contact3": {
+ {
     "firstName": "Irina",
     "lastName": "Nuñez",
     "email": "irinaderairez@yahoo.com",
     "favoriteColor": "Green",
     "birthday": "10/10/1968"
   }
-}
+]
