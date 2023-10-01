@@ -63,12 +63,12 @@ Host: cse341-weeek2.onrender.com
 Content-Type: application/json
 
 {
-    "firstName": "Douglas",
-    "lastName": "Ramirez",
-    "email": "douglasfabricio@gmail.com",
-    "favoriteColor": "REd",
+    "firstName": "Douglass",
+    "lastName": "Ramirz",
+    "email": "douglasfabri@gmail.com",
+    "favoriteColor": "Blue",
     "birthday": "05/08/2001"
 }
 
 ### delete contact 
-DELETE https://cse341-weeek2.onrender.com/contact/6518e179a3c18e081d9af6a5 
+DELETE https://cse341-weeek2.onrender.com/contact/6518f6887b0a7fe77aef6f06
