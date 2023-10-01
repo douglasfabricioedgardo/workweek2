@@ -19,20 +19,20 @@ Content-Type: application/json
 
 ### contact 
 
-PUT /contact/65129529f9040fe1c68ebb7c HTTP/1.1
+PUT /contact/6518b104f31987eee4a33f7f HTTP/1.1
 Host: localhost:8080
 Content-Type: application/json
 
 {
   "firstName": "Douglas",
   "lastName": "Ramirez",
-  "email": "douglasfabricio.ramirez@gmail.com",
-  "favoriteColor": "Brown",
-  "birthday": "03/08/2001"
+  "email": "douglasfabrioe@gmail.com",
+  "favoriteColor": "Yellow",
+  "birthday": "04/08/2001"
 }
 
 ### delete contact 
-DELETE https://localhost:8080/contact/6518e179a3c18e081d9af6a5 
+DELETE http://localhost:8080/contact/6519031aed6145a03f4ce112
 
 
 
@@ -71,4 +71,4 @@ Content-Type: application/json
 }
 
 ### delete contact 
-DELETE https://cse341-weeek2.onrender.com/contact/6518f6887b0a7fe77aef6f06
+DELETE https://cse341-weeek2.onrender.com/contact/651905431bcf2208b9f676aa

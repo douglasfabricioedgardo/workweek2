@@ -57,14 +57,20 @@ const updateContact = async (req, res) => {
   }
 };
 
+
 const deleteContact = async (req, res) => {
   const userId = new ObjectId(req.params.id);
-  const response = await mongodb.getDb().db().collection('contact').deleteContact({ _id: userId }, true);
-  console.log(response);
-  if (response.deletedCount > 0) {
-    res.status(204).send();
-  } else {
-    res.status(500).json(response.error || 'Some error occurred while deleting the contact.');
+  
+  try {
+    const response = await mongodb.getDb().db().collection('contact').deleteOne({ _id: userId });
+
+    if (response.deletedCount === 1) {
+      res.status(200).send(); // Envía una respuesta vacía en caso de éxito (código 204).
+    } else {
+      res.status(404).json('Contact not found'); // Cambié el código de estado a 404 si no se encuentra el documento.
+    }
+  } catch (error) {
+    res.status(500).json(error.message || 'Some error occurred while deleting the contact.');
   }
 };
 
