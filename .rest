@@ -50,9 +50,9 @@ Host: cse341-weeek2.onrender.com
 Content-Type: application/json
 
 {
-  "firstName": "fabri2",
-  "lastName": "Rami",
-  "email": "jeressmyomcapo@gmail.com",
+  "firstName": "Edgardo",
+  "lastName": "Ramiro",
+  "email": "edga@gmail.com",
   "favoriteColor": "yellow",
   "birthday": "04/13/1997"
 }
@@ -65,13 +65,13 @@ Content-Type: application/json
 
 {
     "firstName": "Douglas",
-    "lastName": "Ramirez",
-    "email": "douglasfabricio.rami@gmail.com",
-    "favoriteColor": "brown",
+    "lastName": "Nu1ez",
+    "email": "douglasfabri@gmail.com",
+    "favoriteColor": "Blue",
     "birthday": "05/08/2001"
 }
 
 ### delete contact 
-DELETE https://cse341-weeek2.onrender.com/contact/6518b207ddb477f0b30fa166 HTTP/1.1
+DELETE cse341-weeek2.onrender.com/contact/6518e179a3c18e081d9af6a5 HTTP/1.1
 Host: cse341-weeek2.onrender.com
 Content-Type: application/json
