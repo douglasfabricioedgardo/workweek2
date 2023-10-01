@@ -50,27 +50,28 @@ Host: cse341-weeek2.onrender.com
 Content-Type: application/json
 
 {
-  "firstName": "Jeremy",
-  "lastName": "Ramirez",
-  "email": "jeremyomcapo@gmail.com",
-  "favoriteColor": "Red",
+  "firstName": "fabri2",
+  "lastName": "Rami",
+  "email": "jeressmyomcapo@gmail.com",
+  "favoriteColor": "yellow",
   "birthday": "04/13/1997"
 }
 
 ### contact 
 
-PUT contact/65129529f9040fe1c68ebb7c HTTP/1.1
+PUT https://cse341-weeek2.onrender.com/contact/6518b104f31987eee4a33f7f HTTP/1.1
 Host: cse341-weeek2.onrender.com
 Content-Type: application/json
 
 {
     "firstName": "Douglas",
     "lastName": "Ramirez",
-    "email": "douglasfabricio.ramirez@gmail.com",
-    "favoriteColor": "Brown",
-    "birthday": "03/08/2001"
+    "email": "douglasfabricio.rami@gmail.com",
+    "favoriteColor": "brown",
+    "birthday": "05/08/2001"
 }
 
 ### delete contact 
-DELETE contact/6518b207ddb477f0b30fa166  HTTP/1.1
+DELETE https://cse341-weeek2.onrender.com/contact/6518b207ddb477f0b30fa166 HTTP/1.1
+Host: cse341-weeek2.onrender.com
 Content-Type: application/json
